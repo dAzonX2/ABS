@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Microsoft.EntityFrameworkCore;
+using System.Data.SQLite;
 
 namespace abs
 {
@@ -19,11 +19,7 @@ namespace abs
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new SignIn());
+
         }
-    }
-
-    public class ApplicationContext : DbContext
-    {
-
     }
 }
