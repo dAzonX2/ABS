@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace abs
 {
-    public partial class Form1 : Form
+    public partial class Search : Form
     {
-        public Form1()
+        public Search()
         {
             InitializeComponent();
         }

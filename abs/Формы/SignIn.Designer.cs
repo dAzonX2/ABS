@@ -29,31 +29,32 @@ namespace abs
         /// </summary>
         private void InitializeComponent()
         {
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.if_librarian = new System.Windows.Forms.CheckBox();
+            this.sign_in = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // checkBox1
+            // if_librarian
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(93, 60);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(126, 19);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Как библиотекарь";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.if_librarian.AutoSize = true;
+            this.if_librarian.Location = new System.Drawing.Point(93, 60);
+            this.if_librarian.Name = "if_librarian";
+            this.if_librarian.Size = new System.Drawing.Size(126, 19);
+            this.if_librarian.TabIndex = 0;
+            this.if_librarian.Text = "Как библиотекарь";
+            this.if_librarian.UseVisualStyleBackColor = true;
+            this.if_librarian.CheckedChanged += new System.EventHandler(this.if_librarian_CheckedChanged);
             // 
-            // button1
+            // sign_in
             // 
-            this.button1.Location = new System.Drawing.Point(12, 56);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Войти";
-            this.button1.UseVisualStyleBackColor = true;
+            this.sign_in.Location = new System.Drawing.Point(12, 56);
+            this.sign_in.Name = "sign_in";
+            this.sign_in.Size = new System.Drawing.Size(75, 23);
+            this.sign_in.TabIndex = 1;
+            this.sign_in.Text = "Войти";
+            this.sign_in.UseVisualStyleBackColor = true;
+            this.sign_in.Click += new System.EventHandler(this.sign_in_Click);
             // 
             // label1
             // 
@@ -78,8 +79,8 @@ namespace abs
             this.ClientSize = new System.Drawing.Size(234, 91);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.sign_in);
+            this.Controls.Add(this.if_librarian);
             this.Name = "SignIn";
             this.Text = "Вход";
             this.ResumeLayout(false);
@@ -89,8 +90,8 @@ namespace abs
 
         #endregion
 
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox if_librarian;
+        private System.Windows.Forms.Button sign_in;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
     }

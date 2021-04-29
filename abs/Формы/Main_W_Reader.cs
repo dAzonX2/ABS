@@ -8,11 +8,13 @@ using System.Windows.Forms;
 
 namespace abs
 {
-    public partial class Main_W : Form
+    public partial class Main_W_reader : Form
     {
-        public Main_W()
+        public Main_W_reader()
         {
             InitializeComponent();
         }
+
+
     }
 }

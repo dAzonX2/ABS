@@ -1,7 +1,7 @@
 ﻿
 namespace abs
 {
-    partial class Form1
+    partial class Search
     {
         /// <summary>
         /// Required designer variable.

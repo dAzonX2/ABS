@@ -8,11 +8,16 @@ using System.Windows.Forms;
 
 namespace abs
 {
-    public partial class Form1 : Form
+    public partial class Main_W_Librarian : Form
     {
-        public Form1()
+        public Main_W_Librarian()
         {
             InitializeComponent();
+        }
+
+        private void Main_W_Librarian_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

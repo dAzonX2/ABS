@@ -17,15 +17,28 @@ namespace abs
             InitializeComponent();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void if_librarian_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox1.Checked)
+            if (if_librarian.Checked)
             {
                 label1.Text = "Пароль";
             }
             else
             {
                 label1.Text = "ID билета";
+            }
+        }
+
+        private void sign_in_Click(object sender, EventArgs e)
+        {
+            if (if_librarian.Checked)
+            {
+                Main_W_Librarian db_w = new Main_W_Librarian();
+
+            }
+            else
+            {
+
             }
         }
     }
